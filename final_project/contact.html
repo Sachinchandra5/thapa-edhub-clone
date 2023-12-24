@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        footer {
+            padding: 0;
+        }
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bungee+Spice&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;0,900;1,100;1,300;1,500;1,600;1,800;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <!-- Header starts -->
+    <header>
+        <div class="container header">
+            <div class="nav-logo">
+                <img class="logo-image" src="./images/logo.png" alt="Thapa Eduhub Logo">
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li class="list-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="list-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="list-item"><a class="nav-link" href="service.html">Services</a></li>
+                    <li class="list-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="list-item"><a class="nav-link home-contact-scroll" href="#home-page--contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Header End -->
+
+    <!------- contact form section starts -------->
+    <div class="contact">
+        <div class="common-title contact-common">
+            <h2 class="common-title-heading contact-main--heading">Contact Us</h2>
+            <p class="common-title-para contact-main--para">Get in touch with us. We are always here to help you.
+            </p>
+        </div>
+
+        <div class="contact-main-layout">
+            <div class="form-section" data-aos="fade-up">
+                <form action="https://formspree.io/f/mwkddeqd" method="POST" class="form ">
+                    <div class="name-email">
+                        <div>
+                            <label for="username">Username</label>
+                            <input type="text" id="username" placeholder="Enter your Name">
+                        </div>
+                        <div>
+                            <label for="e-mail">Enter Your E-mail</label>
+                            <input type="email" id="e-mail" placeholder="Enter your E-mail">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="main-title">Subject</label>
+                        <input type="text" id="main-title" placeholder="your main title">
+                    </div>
+                    <div>
+                        <label for="massage">Massage</label>
+                        <textarea name="massage" id="massage" cols="30" rows="13">Enter your massage</textarea>
+                    </div>
+                    <div class="submit">
+                        <button type="submit" class="btn h-p--contact-btn">Send Massage</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="map" data-aos="fade-up" data-aos-delay="300">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7007.778155182657!2d77.26453559238362!3d28.573093374964774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce399f930c735%3A0xe685ec011e8d5f0d!2sTaimoor%20Nagar%2C%20New%20Friends%20Colony%2C%20New%20Delhi%2C%20Delhi%20110065!5e0!3m2!1sen!2sin!4v1700735982178!5m2!1sen!2sin"
+                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!------- contact form section end -------->
+
+    <!------- footer section -------->
+    <footer>
+        <div class="footer-cols--grid">
+            <div class="first-footer--section">
+                <div>
+                    <h3 class="h3-footer"><a href="#">Thapa Eduhub</a></h3>
+                </div>
+                <div>
+                    <p class="para-footer">Let's revolutionize the way you study with Thapa EduHub</p>
+                </div>
+                <div class="footer-icons">
+                    <div class="footer-icons--div"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="footer-icons--div"><i class="fa-brands fa-youtube"></i></div>
+                    <div class="footer-icons--div"><i class="fa-brands fa-discord"></i></div>
+                </div>
+            </div>
+
+            <div class="second-footer--section">
+                <div>
+                    <h3 class="h3-footer--second">Courses</h3>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="#">HTML</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="#">CSS</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="#">Javascript</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="#">React</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="#">Bootstrap</a></p>
+                </div>
+            </div>
+
+            <div class="third-footer--section">
+                <div>
+                    <h3 class="h3-footer--second">Link</h3>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="#">Home</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="about.html">About</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="service.html">courses</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="blog.html">blog</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="contact.html">contact</a></p>
+                </div>
+            </div>
+
+            <div class="fourth-footer--section">
+                <div>
+                    <h3 class="h3-footer--second">Blog</h3>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="#">HTML</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="#">CSS</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="#">Javascript</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="#">React</a></p>
+                </div>
+                <div>
+                    <p class="para-footer second-section--footer"><a href="#">Bootstrap</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!------- footer section end -------->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
